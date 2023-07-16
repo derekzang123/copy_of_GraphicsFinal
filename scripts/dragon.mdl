@@ -1,0 +1,11 @@
+frames 50
+basename dragon_50
+constants shiny_purple 0.2 0.3 0.7 0.0 0.0 0.0 0.0 0.3 0.7
+push
+    move 250 250 0
+    scale 150 150 150
+    rotate y 360 spin
+    mesh shiny_purple :dragon
+pop
+shading phong
+vary spin 0 49 0 1
